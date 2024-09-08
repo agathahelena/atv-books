@@ -80,9 +80,48 @@ header nav a {
 header nav a strong {
 	color: black;
 }
-section p  {
-   display: flex;
-}
+/*
+
+//////////////////////////////////////////////////////
+
+                       CONTEUDO
+				
+//////////////////////////////////////////////////////
+
+*/
+
 section.baner div h1 {
 	font-weight: bold;
+	font-size: 3vw;
 }
+ main section.baner   {
+	display: flex;
+}
+section button.botao {
+	background: black;
+	color: white;
+	padding: 20px 40px 20px 40px ;
+	margin: 2vw 0 2vw 1vw;
+}
+section.baner p {
+	margin: 10px 10px 10px 10px;
+	font-size: 20px;
+}
+section h3.meio {
+	justify-content: center;
+	font-weight: bold;
+}
+section p.homem {
+	display: flex;
+}
+
+
+/*
+
+//////////////////////////////////////////////////////
+                
+                      RODAPE  
+				
+//////////////////////////////////////////////////////
+
+*/
