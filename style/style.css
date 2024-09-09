@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,30 +91,54 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-	
+
 }
+
+a.subpaginas {
+	text-decoration: none;
+}
+
 /*
 
 //////////////////////////////////////////////////////
@@ -58,28 +150,35 @@ table {
 */
 
 
-header{
-	margin: 2vw 4vw 0vw 4vw ;
+header {
+	margin: 2vw 4vw 0vw 4vw;
 }
+
 header nav ul {
- display: flex ;
- justify-content: right;
+	display: flex;
+	justify-content: right;
 }
+
 header nav ul li {
-	margin: 0px 10px 0px 10px ;
+	margin: 0px 10px 0px 10px;
 }
-header nav ul li.book a{
+
+header nav ul li.book a {
 	color: black;
 }
+
 header nav ul li.cinza a {
 	color: rgb(68, 68, 68);
 }
+
 header nav a {
 	color: rgb(71, 71, 71);
 }
+
 header nav a strong {
 	color: black;
 }
+
 /*
 
 //////////////////////////////////////////////////////
@@ -94,26 +193,59 @@ section.baner div h1 {
 	font-weight: bold;
 	font-size: 3vw;
 }
- main section.baner   {
-	display: flex;
-}
+
 section button.botao {
 	background: black;
 	color: white;
-	padding: 20px 40px 20px 40px ;
+	padding: 20px 40px 20px 40px;
 	margin: 2vw 0 2vw 1vw;
 }
-section.baner p {
+
+main section.baner div.link p {
+	display: flex;
+}
+
+main section.baner {
+	display: flex;
+	background: #F8F8F8;
+}
+
+main section.baner p {
 	margin: 10px 10px 10px 10px;
 	font-size: 20px;
 }
-section h3.meio {
-	justify-content: center;
+
+main section.baner h1 span.lado {
+	color: rgb(24, 197, 139);
+}
+
+main section.Point div h3{
+	text-align:center;
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin: 2vw 0 8vw 0;
+}
+main section.Point div ul li{
+	display: flex;
+	padding: 5vw 2vw 5vw 2vw 
+}
+main section.Point div ul li.direita{
+	background: #F8F8F8;
+}
+main section.Point div ul li.direita p{
+	padding: 5vw 2vw 5vw 2vw ;
+}
+main section.Point div ul li.esquerda p{
+	padding: 10vw 2vw 10vw 2vw  ;
+}
+section h3 {
+	text-align: center;
+	font-size: 1.5rem;
+}
+section p span {
 	font-weight: bold;
 }
-section p.homem {
-	display: flex;
-}
+
 
 
 /*
