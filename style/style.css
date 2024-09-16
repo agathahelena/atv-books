@@ -148,7 +148,9 @@ a.subpaginas {
 //////////////////////////////////////////////////////
 
 */
-
+body {
+	background: #F8F8F8;
+}
 
 header {
 	margin: 2vw 4vw 0vw 4vw;
@@ -178,6 +180,9 @@ header nav a {
 header nav a strong {
 	color: black;
 }
+main section.baner {
+	margin: 82px ;
+}
 
 /*
 
@@ -188,7 +193,6 @@ header nav a strong {
 //////////////////////////////////////////////////////
 
 */
-
 section.baner div h1 {
 	font-weight: bold;
 	font-size: 3vw;
@@ -201,17 +205,21 @@ section button.botao {
 	margin: 2vw 0 2vw 1vw;
 }
 
+
 main section.baner div.link p {
 	display: flex;
+}
+main section.baner div a {
+	color: black;
+	padding: 45px ;
 }
 
 main section.baner {
 	display: flex;
-	background: #F8F8F8;
 }
 
 main section.baner p {
-	margin: 10px 10px 10px 10px;
+	margin: 30px 10px 10px 10px;
 	font-size: 20px;
 }
 
@@ -231,19 +239,54 @@ main section.Point div ul li{
 }
 main section.Point div ul li.direita{
 	background: #F8F8F8;
+	font-size: 20px;
 }
 main section.Point div ul li.direita p{
 	padding: 5vw 2vw 5vw 2vw ;
 }
+main section.Point div ul li.esquerda{
+	background: white;
+}
 main section.Point div ul li.esquerda p{
-	padding: 10vw 2vw 10vw 2vw  ;
+	padding:5vw 2vw 5vw 2vw ;
+	font-size: 20px;
 }
 section h3 {
 	text-align: center;
 	font-size: 1.5rem;
+	padding: 50px ;
+	background: white;
+	font-weight: bold;
 }
 section p span {
 	font-weight: bold;
+}
+main section.tabela div {
+	display: flex;
+}
+main section.tabela div ul li {
+	padding: 2vw ;
+}
+main section.tabela div ul {
+	margin: 5px 5px 5px 5px ;
+	background: #F8F8F8;;
+	font-size:20px ;
+}
+section.tabela img {
+	background: white;
+	padding: 5vw ;
+}
+section.tabela h3 {
+	background: white;
+	padding: 50px;
+}
+footer nav{
+	display: flex;
+	padding: 5vw 5vw 5vw 5vw;
+}
+footer nav a{
+	padding: 0 5vw 0 0;
+	color: #b1aaaa;
 }
 
 
